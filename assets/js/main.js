@@ -9,7 +9,7 @@
 
   $(window).on('load', function () {
     if ($('#preloader').length) {
-      $('#preloader').delay(2000).fadeOut('slow', function () {
+      $('#preloader').delay(3000).fadeOut('slow', function () {
         $(this).remove();
       });
     }
